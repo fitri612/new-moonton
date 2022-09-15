@@ -32,7 +32,7 @@ Route::get('/dashboard', function () {
 
 Route::prefix('prototype')->group(function () {
     Route::get('/login', function () {
-        return Inertia::render('Dashboard');
+        return Inertia::render('PrototypePages/LoginPages');
     });
 });
 
